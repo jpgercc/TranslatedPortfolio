@@ -128,11 +128,38 @@ body{
     font-weight: 400;
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1345px){
     .cabecalho{
         padding: 10%;
     }
     .cabecalho__menu{
+        gap: 2rem;
         justify-content: center;
     }
+
+    .apresentacao{
+        flex-direction: column;
+        padding: 5%;
+    
+    }
+    .apresentacao__conteudo{
+        width: auto;
+    }
+
+    .apresentação__links__subtitulo{
+        font-size: 1.3rem;
+    }
+
+    .apresentacao__links__link{
+        border: 2px solid var(--cor-terciaria);
+        width: 60%;
+        border-radius: 8px;
+        font-size: 1.5rem;
+        color: var(--cor-secundaria);
+    }
+
+    .imagem{
+        width: 95%;
+      }
+      
 }
