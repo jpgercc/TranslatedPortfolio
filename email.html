@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="./styles/email.css">
+  </head>
+  <body>
+    <body>
+        <header class="cabecalho">
+            <nav class="cabecalho__menu">
+                <a class="cabecalho__menu__link" href="index.html">Home</a>
+                <a class="cabecalho__menu__link" href="about.html">About me</a>
+                <a class="cabecalho__menu__link" href="projetos.html">Projects</a>
+            </nav>
+        </header>
+    <h1 class="formulario">Contact Form</h1>
+    <p class="bug">Found a bug? Please tell me!</p>
+    <form
+      action="https://formsubmit.co/jpgercc@gmail.com"
+      method="POST"
+      class="form"
+    >
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" required />
+      <label for="email">E-mail</label>
+      <input type="email" name="email" id="email" required />
+      <label for="message">Message</label>
+      <textarea name="message" id="message" required></textarea>
+      <input type="hidden" name="_captcha" value="false" />
+      <input
+        type="hidden"
+        name="_next"
+        value="https://jpgercc.github.io/portfolio/obrigado.html"
+      />
+      <button type="submit">Send</button>
+    </form>
+    <footer class="rodape">
+        <p>Website under development by:</p> 
+        <p>João Pedro Gershenson Costa.</p> 
+    </footer>
+  </body>
+</html>
