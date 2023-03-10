@@ -182,5 +182,11 @@ body{
     .imagem{
         width: 95%;
       }
+
+@media screen and (max-width: 360px){
+    .apresentacao__links__link{
+        width: 80%;
+    }
+}
       
 }

@@ -38,10 +38,16 @@ body{
 .cabecalho__menu__link:hover{
     color: var(--cor-secundaria);
 }
+
+.eng__img{
+    padding-left: 95%;
+}
+
 .dev__aviso{
     color: var(--cor-hover);
     font-family: var(--fonte-primaria);
 }
+
 .art{
     margin-top: 2%;
     margin-left: 33%;
@@ -97,7 +103,7 @@ body{
         padding: 10%;
     }
     .cabecalho__menu{
-        gap: 3rem;
+        gap: 1rem;
         justify-content: center;
     }
     .corpo{
