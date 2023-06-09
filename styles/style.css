@@ -151,9 +151,9 @@ body{
     font-weight: 400;
 }
 
-@media screen and (max-width: 1345px){
+@media screen and (max-width: 1330px){
     .cabecalho{
-        padding: 19%;
+        padding: 2%;
     }
     .cabecalho__menu{
         gap: 1rem;
@@ -166,7 +166,7 @@ body{
 
     .apresentacao{
         flex-direction: column;
-        padding: 5%;
+        padding: 5px;
     
     }
     .apresentacao__conteudo{
@@ -178,7 +178,7 @@ body{
     }
 
     .apresentacao__links__link{
-        border: 2px solid var(--cor-terciaria);
+        border: 0px solid var(--cor-terciaria);
         width: 60%;
         border-radius: 8px;
         font-size: 1.5rem;
@@ -186,7 +186,7 @@ body{
     }
 
     .imagem{
-        width: 95%;
+        width: 35%;
       }
 
 }
