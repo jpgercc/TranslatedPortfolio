@@ -66,7 +66,6 @@ body{
     color: var(--cor-hover);
 }
 
-
 .titulo_baixar{
     color: var(--cor-secundaria);
     font-size: 2.25rem;
@@ -88,7 +87,7 @@ body{
         justify-content: center;
     }
     .titulo_cv{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
     .paragrafo_cv{
         font-size: 1.3rem;

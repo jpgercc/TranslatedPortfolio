@@ -2,6 +2,7 @@
 
 
 
+
 :root{
     --cor-primaria: #06113C;
     --cor-secundaria: #FF8C32;
@@ -10,6 +11,7 @@
 
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
+    --fonte-terciaria: 
 }
 
 body{
@@ -149,13 +151,17 @@ body{
     font-weight: 400;
 }
 
-@media screen and (max-width: 1360px){
+@media screen and (max-width: 1345px){
     .cabecalho{
-        padding: 10%;
+        padding: 19%;
     }
     .cabecalho__menu{
         gap: 1rem;
         justify-content: center;
+    }
+
+    .cabecalho__menu__link{
+        font-size: 1.3rem;
     }
 
     .apresentacao{
@@ -183,10 +189,10 @@ body{
         width: 95%;
       }
 
+}
+
 @media screen and (max-width: 360px){
     .apresentacao__links__link{
         width: 80%;
     }
-}
-      
 }
