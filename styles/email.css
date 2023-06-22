@@ -133,7 +133,7 @@ body{
         padding: 10%;
     }
     .cabecalho__menu{
-        gap: 1rem;
+        gap: 5px;
         justify-content: center;
     }
 
