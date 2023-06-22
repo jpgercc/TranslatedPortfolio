@@ -42,7 +42,7 @@ body{
 }
 
 .eng__img{
-    padding-left: 95%;
+    padding-left: 85%;
 }
 
 .apresentacao{
@@ -156,7 +156,7 @@ body{
         padding: 2%;
     }
     .cabecalho__menu{
-        gap: 1rem;
+        gap: 5px;
         justify-content: center;
     }
 
