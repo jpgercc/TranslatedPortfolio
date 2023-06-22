@@ -2,7 +2,6 @@
 
 
 
-
 :root{
     --cor-primaria: #06113C;
     --cor-secundaria: #FF8C32;
@@ -11,7 +10,6 @@
 
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
-    --fonte-terciaria: 
 }
 
 body{
@@ -19,8 +17,7 @@ body{
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
 }
-
-.cabecalho{
+.cabecalho_pj{
     padding: 2% 0% 0% 15%;
 }
 
@@ -31,114 +28,60 @@ body{
 
 .cabecalho__menu__link{
     font-family: var(--fonte-secundaria);
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
 }
 
 .cabecalho__menu__link:hover{
-    color: var(--cor-06113C);
+    color: var(--cor-secundaria);
 }
 
 .eng__img{
     padding-left: 85%;
 }
 
-.apresentacao{
-    padding: 6% 15%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 82px;
-}
-.apresentacao__conteudo{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-}
-
-.apresentacao__conteudo__titulo{
-    font-size: 2.25rem;
+.dev__aviso{
+    color: var(--cor-hover);
     font-family: var(--fonte-primaria);
 }
+.art{
+    margin-top: 2%;
+    margin-left: 33%;
+    border-radius: 20%;
+    width: 35%;
+}
 
-.apresentacao__conteudo__titulo{
-    font-family: var(--fonte-primaria);
-    font-weight: 400;
-    font-size: 2rem;
-    color: var(--cor-terciaria);
+.corpo{
+    padding: 2% 0% 0% 10%;
 }
 
 .titulo-destaque{
+    text-align: center;
     color: var(--cor-secundaria);
     font-size: 2.25rem;
     font-family: var(--fonte-primaria);
 }
 
-.apresentacao__conteudo__texto{
-    font-size: 1.5rem;
+.div{
     color: var(--cor-terciaria);
     font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
 }
-
-.alura{
-    text-decoration: none;
-    color: var(--cor-secundaria);
-}
-
-.alura:hover{
-    color: var(--cor-hover);
-}
-
-.apresentacao__links{
+.nav{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    gap: 32px;
+    gap: 3rem;
 }
 
-.apresentação__links__subtitulo{
-    font-family: var(--fonte-primaria);
-    font-weight: 400;
-    font-size: 1.5rem;
-}
-
-.apresentacao__links__link{
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    border: 2px solid var(--cor-terciaria);
-    width: 50%;
-    text-align: center;
-    border-radius: 8px;
-    font-size: 1.5rem;
-    font-weight: 600;
-    padding: 21.5px 0;
+.nav_links{
     text-decoration: none;
-    color: var(--cor-secundaria);
-    font-family: var(--fonte-secundaria);
+    color: var(--cor-secundaria)
 }
 
-.apresentacao__links__link:hover{
-    color: var(--cor-terciaria);
-    background-color: #06113C;
-}
-
-.imagem{
-    border-radius: 8%;
-}
-
-.bug{
-    font-size: 1.3rem;
-    text-align: center;
-    font-family: var(--fonte-secundaria);
-}
-
-.bug_img:hover{
-    opacity: 0;
+.nav_links:hover{
+    color: var(--cor-hover);
 }
 
 .rodape{
@@ -151,22 +94,42 @@ body{
     font-weight: 400;
 }
 
-@media screen and (max-width: 1330px){
-    .cabecalho{
+/* editar depois o media */
+
+@media screen and (max-width: 1345px){
+    .cabecalho_pj{
         padding: 2%;
     }
     .cabecalho__menu{
         gap: 5px;
         justify-content: center;
     }
+    .corpo{
+        padding: 2% 0% 0% 2%;
+    }
+    .titulo-destaque{
+        font-size: 2rem;
+    }
+    .div{
+        font-size: 1rem;
+    }
+    .nav{
 
-    .cabecalho__menu__link{
-        font-size: 1.3rem;
+    }
+}
+/*
+@media screen and (max-width: 1360px){
+    .cabecalho{
+        padding: 10%;
+    }
+    .cabecalho__menu{
+        gap: 1rem;
+        justify-content: center;
     }
 
     .apresentacao{
         flex-direction: column;
-        padding: 5px;
+        padding: 5%;
     
     }
     .apresentacao__conteudo{
@@ -178,7 +141,7 @@ body{
     }
 
     .apresentacao__links__link{
-        border: 0px solid var(--cor-terciaria);
+        border: 2px solid var(--cor-terciaria);
         width: 60%;
         border-radius: 8px;
         font-size: 1.5rem;
@@ -186,13 +149,13 @@ body{
     }
 
     .imagem{
-        width: 35%;
+        width: 95%;
       }
-
-}
 
 @media screen and (max-width: 360px){
     .apresentacao__links__link{
         width: 80%;
     }
+}
+      
 }
