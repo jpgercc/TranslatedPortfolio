@@ -31,7 +31,7 @@ body{
 
 .cabecalho__menu__link{
     font-family: var(--fonte-secundaria);
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
@@ -80,7 +80,7 @@ body{
 
 @media screen and (max-width: 1360px){
     .cabecalho{
-        padding: 10%;
+        padding: 2%;
     }
     .cabecalho__menu{
         gap: 5px;
