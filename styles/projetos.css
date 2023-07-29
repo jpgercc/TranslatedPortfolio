@@ -39,6 +39,11 @@ body{
     color: var(--cor-secundaria);
 }
 
+.cabecalho__menu__link:active{
+    font-size: 1.4rem;
+    color: var(--cor-hover);
+}
+
 .eng__img{
     padding-left: 85%;
 }
