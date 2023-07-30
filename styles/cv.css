@@ -46,10 +46,6 @@ body{
     color: var(--cor-hover);
 }
 
-.eng__img{
-    padding-left: 85%;
-}
-
 .titulo_cv{
     color: var(--cor-secundaria);
     font-size: 2.25rem;

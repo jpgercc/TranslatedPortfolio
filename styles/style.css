@@ -46,10 +46,6 @@ body{
     color: var(--cor-hover);
 }
 
-.eng__img{
-    padding-left: 85%;
-}
-
 .apresentacao{
     padding: 6% 15%;
     display: flex;

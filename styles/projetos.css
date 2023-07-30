@@ -19,7 +19,7 @@ body{
 }
 
 .cabecalho{
-    padding: 2% 0% 0% 30%;
+    padding: 2% 0% 0% 15%;
 }
 
 .cabecalho__menu{
@@ -29,7 +29,7 @@ body{
 
 .cabecalho__menu__link{
     font-family: var(--fonte-secundaria);
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
@@ -44,14 +44,15 @@ body{
     color: var(--cor-hover);
 }
 
-.eng__img{
-    padding-left: 85%;
-}
-
 .dev__aviso{
     color: var(--cor-hover);
     font-family: var(--fonte-primaria);
 }
+
+.mouse_img{
+    margin-left: 80%;
+}
+
 .art{
     margin-top: 2%;
     margin-left: 33%;
@@ -107,7 +108,7 @@ body{
         padding: 10%;
     }
     .cabecalho__menu{
-        gap: 5px;
+        gap: 1rem;
         justify-content: center;
     }
     .corpo{
@@ -119,23 +120,24 @@ body{
     .div{
         font-size: 1rem;
     }
-    .nav{
-
-    }
 }
-/*
-@media screen and (max-width: 1360px){
+
+@media screen and (max-width: 1330px){
     .cabecalho{
-        padding: 10%;
+        padding: 2%;
     }
     .cabecalho__menu{
         gap: 1rem;
         justify-content: center;
     }
 
+    .cabecalho__menu__link{
+        font-size: 1.3rem;
+    }
+
     .apresentacao{
         flex-direction: column;
-        padding: 5%;
+        padding: 5px;
     
     }
     .apresentacao__conteudo{
@@ -147,7 +149,7 @@ body{
     }
 
     .apresentacao__links__link{
-        border: 2px solid var(--cor-terciaria);
+        border: 0px solid var(--cor-terciaria);
         width: 60%;
         border-radius: 8px;
         font-size: 1.5rem;
@@ -155,13 +157,17 @@ body{
     }
 
     .imagem{
-        width: 95%;
+        width: 35%;
       }
+
+}
 
 @media screen and (max-width: 360px){
     .apresentacao__links__link{
         width: 80%;
     }
-}
-      
+    .cabecalho__menu{
+        gap: 5px;
+        justify-content: center;
+    }
 }
