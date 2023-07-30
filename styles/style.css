@@ -132,6 +132,10 @@ body{
     border-radius: 8%;
 }
 
+.imagem_eu{
+    border-radius: 8%;
+}
+
 .bug{
     font-size: 1.3rem;
     text-align: center;
@@ -188,6 +192,10 @@ body{
 
     .imagem{
         width: 35%;
+      }
+      .imagem_eu{
+        width: 70%;
+        
       }
 
 }
