@@ -38,6 +38,11 @@ body{
     color: var(--cor-secundaria);
 }
 
+.cabecalho__menu__link:active{
+    font-size: 1.4rem;
+    color: var(--cor-hover);
+}
+
 .formulario{
     text-align: left;
     font-size: 2.25rem;
