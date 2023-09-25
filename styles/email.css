@@ -28,7 +28,7 @@ body{
 
 .cabecalho__menu__link{
     font-family: var(--fonte-secundaria);
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
@@ -38,13 +38,8 @@ body{
     color: var(--cor-secundaria);
 }
 
-.cabecalho__menu__link:active{
-    font-size: 1.4rem;
-    color: var(--cor-hover);
-}
-
 .formulario{
-    text-align: left;
+    text-align: center;
     font-size: 2.25rem;
     font-family: var(--fonte-primaria);
     color: var(--cor-secundaria);
@@ -61,6 +56,7 @@ body{
     max-width: 32rem;
     font-size: 1.125rem;
     font-family: var(--fonte-secundaria);
+    margin: 0 auto;
 }
 
 .form label,
@@ -118,6 +114,7 @@ body{
 .form button:focus {
     outline: none;
     background: #0b1d668c;
+    color: #FF8C32;
 }
 .pintura{
     width: 10%;
@@ -127,18 +124,20 @@ body{
     color: var(--cor-terciaria);
     background-color: var(--cor-primaria);
     padding: 24px;
-    text-align: left;
+    text-align: center;
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
     font-weight: 400;
 }
 
+
+
 @media screen and (max-width: 1345px){
     .cabecalho{
-        padding: 10%;
+        padding: 2%;
     }
     .cabecalho__menu{
-        gap: 5px;
+        gap: 2rem;
         justify-content: center;
     }
 
@@ -166,5 +165,9 @@ body{
     .imagem{
         width: 95%;
       }
+      .cabecalho__menu{
+        gap: 5px;
+        justify-content: center;
+    }
       
 }

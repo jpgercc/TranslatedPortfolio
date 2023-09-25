@@ -105,10 +105,10 @@ body{
 
 @media screen and (max-width: 1345px){
     .cabecalho{
-        padding: 2%;
+        padding: 10%;
     }
     .cabecalho__menu{
-        gap: 4vh;
+        gap: 1rem;
         justify-content: center;
     }
     .corpo{
@@ -127,7 +127,7 @@ body{
         padding: 2%;
     }
     .cabecalho__menu{
-        gap: 1rem;
+        gap: 4vh;
         justify-content: center;
     }
 
